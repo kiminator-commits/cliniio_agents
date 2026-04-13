@@ -95,12 +95,50 @@ Always escalates:
 - Skip the outreach filtering rule
 - Treat a feature request as approved without a spec
 
+## Cowork (Agent Teams)
+
+This workspace supports Claude Code's Cowork mode, which lets multiple agents run in parallel as a coordinated team. Each agent is defined as a subagent in `.claude/agents/`.
+
+### Enabling Cowork
+
+Set the environment variable before launching Claude Code:
+
+```bash
+export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1
+claude
+```
+
+Or add to your Claude Code `settings.json`:
+
+```json
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
+  }
+}
+```
+
+### Spawning a Team
+
+Once Cowork is enabled, ask Claude to spawn teammates using any of the subagent types listed in the routing table. Example:
+
+> "Create a team: spawn compliance-tracker to review Ontario dental standards, standards-watcher to check for recent RCDSO changes, and audit-scribe to format the results."
+
+Each teammate works in its own context window and can message the others directly.
+
+### Tips
+
+- Start with 2-3 teammates max — coordination overhead grows with team size
+- Avoid having two teammates edit the same file
+- Use Chief of Staff as the team lead for multi-domain tasks
+- Each teammate burns its own tokens — use teams when parallel work justifies the cost
+
 ## File Structure
 
 - `CLAUDE.md` — This file. Company handbook.
 - `.claude/rules/brand-voice.md` — Brand voice, tone, banned phrases
 - `.claude/skills/` — Reusable skill definitions for cross-agent capabilities
-- `.claude/agents/` — Agent orchestration configs
+- `.claude/agents/` — Subagent definitions for Cowork (one per agent)
 - `memory/` — Shared memory: manifest, lessons, feedback, domain state
 - `config/` — Workspace preferences
 - `[agent]-md/` — Per-agent directories with their own CLAUDE.md and memory/
