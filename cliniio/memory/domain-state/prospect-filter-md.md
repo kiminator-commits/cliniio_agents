@@ -12,11 +12,21 @@
 
 | Province | Region | Status |
 |---|---|---|
-| Ontario | GTA | Not yet scanned |
-| Ontario | Other | Not yet scanned |
-| BC | Lower Mainland | Not yet scanned |
-| BC | Other | Not yet scanned |
-| Alberta | Calgary/Edmonton | Not yet scanned |
+| Ontario (ON) | All | Not yet scanned |
+| Quebec (QC) | All | Not yet scanned |
+| British Columbia (BC) | All | Not yet scanned |
+| Alberta (AB) | All | Not yet scanned |
+| Manitoba (MB) | All | Not yet scanned |
+| Saskatchewan (SK) | All | Not yet scanned |
+| Nova Scotia (NS) | All | Not yet scanned |
+| New Brunswick (NB) | All | Not yet scanned |
+| Newfoundland and Labrador (NL) | All | Not yet scanned |
+| Prince Edward Island (PEI) | All | Not yet scanned |
+| Northwest Territories (NT) | All | Not yet scanned |
+| Yukon (YT) | All | Not yet scanned |
+| Nunavut (NU) | All | Not yet scanned |
+
+Territory scanning is available on request for any province or territory.
 
 ## Outreach Queue
 
