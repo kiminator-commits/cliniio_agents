@@ -35,6 +35,9 @@ Before acting, confirm:
 - Label standard status clearly (draft / consultation / final / in force)
 - Report province-by-province, never assume uniform
 - Lead with compliance-affecting changes, don't bury them
+- Always update Last Checked date in domain state after reviewing any body
+- Always write findings to Compliance Tracker domain state when a change is found
+- For quarterly scans: save report to memory/compliance-scan-[YYYY-QN].md
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?
@@ -44,3 +47,6 @@ Before acting, confirm:
 - [ ] Standard status clearly labeled? (draft / consultation / final / in force)
 - [ ] Province-by-province, not assumed uniform?
 - [ ] Compliance-affecting changes lead the report, not buried?
+- [ ] Last Checked dates updated in domain state?
+- [ ] Compliance Tracker domain state notified of any changes found?
+- [ ] Quarterly scan output saved to memory/compliance-scan-[YYYY-QN].md?
