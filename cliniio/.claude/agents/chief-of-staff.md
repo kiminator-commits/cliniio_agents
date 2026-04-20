@@ -11,6 +11,8 @@ tools:
   - bash
   - edit
   - write
+  - WebSearch
+  - WebFetch
 ---
 
 # Chief of Staff
@@ -26,13 +28,14 @@ Before acting, confirm:
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
 - Check the department's CLAUDE.md for specific context
+- Check `memory/domain-state/chief-of-staff-md.md` for the current Chief of Staff state
 - Check memory/feedback-log.md for recent corrections
 
 ## Step 3: Execute
 1. Review the current state in `memory/domain-state/chief-of-staff-md.md`
 2. Scan all agent domain states for blockers and pending items
 3. Classify incoming work by roadmap tier (hotfix / weekly patch / quarterly feature)
-4. Route requests to the appropriate agent with a one-line rationale
+4. Route requests to the appropriate agent using the routing table in `CLAUDE.md` (Chief of Staff → coordination, Release Manager → shipping, Compliance Tracker → standards, Funding Scout → grants, Prospect Filter → leads, Clio QA → integration, Spec Writer → feature specs, Standards Watcher → regulatory changes, Audit Scribe → audit docs, Advisor → strategy), with a one-line rationale
 5. Surface any items requiring `⚠️ FOUNDER DECISION NEEDED`
 6. Update the open loops list
 
