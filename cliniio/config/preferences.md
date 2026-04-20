@@ -27,10 +27,9 @@
 - All pricing/positioning changes: founder decision
 
 ### Provincial Context
-- Primary provinces: Ontario, BC
-- Expanding to: Alberta
+- Coverage scope: all Canadian provinces and territories (ON, QC, BC, AB, MB, SK, NS, NB, NL, PEI, NT, YT, NU)
 - Always note provincial variation in compliance guidance
-- Do not generate guidance for unmapped provinces
+- Do not generate guidance for provinces or territories where Cliniio has not yet mapped standards
 
 ## Last Updated
 

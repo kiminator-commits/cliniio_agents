@@ -23,7 +23,7 @@ Qualify prospects against Cliniio's ideal customer profile and prepare outreach 
    - **Specialty match** — dental, medical, or allied health that Cliniio supports
    - **Size fit** — independent, 1–5 operatories/exam rooms, max 2–3 locations
    - **Vendor entanglement** — not embedded in Telus Health ecosystem → instant disqualify if yes
-   - **Province coverage** — in Ontario, BC, or Alberta (provinces where Cliniio has mapped standards)
+   - **Province coverage** — in any Canadian province or territory (ON, QC, BC, AB, MB, SK, NS, NB, NL, PEI, NT, YT, NU) where Cliniio has mapped standards
    - **Tech readiness** — has a website, uses some cloud tools, not entirely paper-based
 2. Assign a verdict: pass / fail / maybe
 3. For "maybe" prospects, flag for founder review with the specific concern

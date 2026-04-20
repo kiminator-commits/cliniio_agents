@@ -14,7 +14,7 @@ Solo founder, based in Canada. No employees. All agents report to the founder.
 
 - Independent dental clinics (1–5 operatories)
 - Independent medical clinics and allied health practices
-- Canadian provinces: primary focus Ontario and BC, expanding to Alberta
+- Canadian provinces and territories: all (ON, QC, BC, AB, MB, SK, NS, NB, NL, PEI, NT, YT, NU)
 - **Not** hospital systems, large chains, or US-based clinics
 
 ## Competitive Landscape

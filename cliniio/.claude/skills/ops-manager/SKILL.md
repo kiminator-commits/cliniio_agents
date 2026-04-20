@@ -15,7 +15,7 @@ Handle day-to-day operational workflows: compliance tracking, audit prep, standa
 ## Inputs
 
 - Clinic specialty (dental, medical, allied health)
-- Province (Ontario, BC, Alberta)
+- Province or territory (any Canadian province or territory: ON, QC, BC, AB, MB, SK, NS, NB, NL, PEI, NT, YT, NU)
 - Specific regulatory body (RCDSO, CPSO, CDSBC, etc.)
 - Audit type if applicable (routine, complaint-driven, random)
 - Raw compliance data to format
