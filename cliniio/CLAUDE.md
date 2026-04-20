@@ -50,6 +50,7 @@ This workspace is operated by a team of Claude Code agents. Each agent has a spe
 | Regulatory standards, compliance checklists | **Compliance Tracker** | `compliance-tracker/` |
 | Grants, funding programs, accelerators | **Funding Scout** | `funding-scout/` |
 | Prospect research, lead filtering | **Prospect Filter** | `prospect-filter/` |
+| First-touch outreach drafting, Apollo sequence queuing | **Outreach Rep** | `outreach-rep/` |
 | Clio integration, data mapping, sync issues | **Clio QA** | `clio-qa/` |
 | Feature specs, user stories, acceptance criteria | **Spec Writer** | `spec-writer/` |
 | Regulatory updates, standard changes | **Standards Watcher** | `standards-watcher/` |
