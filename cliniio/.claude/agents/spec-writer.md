@@ -11,6 +11,8 @@ tools:
   - bash
   - edit
   - write
+  - websearch
+  - webfetch
 ---
 
 # Spec Writer
@@ -30,11 +32,15 @@ Before acting, confirm:
 - If compliance-related, check compliance-tracker-md/CLAUDE.md
 
 ## Step 3: Execute
+- Triage first: classify the request by roadmap tier (hotfix / weekly patch / quarterly feature) before writing anything. Hotfixes skip the spec and route directly to Release Manager.
 - Write tight, smallest-viable-version specs
 - Include acceptance criteria for every user story
+- Save specs to spec-writer-md/memory/ as [YYYY-MM-DD]-[feature-slug].md
 - No feature is treated as approved without founder sign-off
+- Once approved, create a work item in Plane Roadmap Planning project (ID: d15cc223-84ea-4436-873f-046acac9c40a) with the spec title, tier, and summary
 
 ## Step 4: Quality Check
+- [ ] Tier classified before writing?
 - [ ] Sounds like a human wrote it?
 - [ ] Matches our voice? (check rules)
 - [ ] Specific, not generic?
@@ -42,3 +48,5 @@ Before acting, confirm:
 - [ ] Acceptance criteria included for every user story?
 - [ ] Scope is tight, smallest viable version?
 - [ ] No feature treated as approved without founder sign-off?
+- [ ] Spec saved to spec-writer-md/memory/?
+- [ ] Approved specs added to Plane Roadmap Planning project?
