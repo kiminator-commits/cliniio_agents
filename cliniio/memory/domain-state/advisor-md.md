@@ -11,10 +11,10 @@
 ## Current Strategic Context
 
 - **Stage:** Early / pre-revenue or early-revenue (needs founder confirmation)
-- **Focus market:** Independent dental and medical clinics in Ontario and BC
-- **Pricing model:** Not yet established
+- **Focus market:** Independent dental and medical clinics across all Canadian provinces and territories
+- **Pricing model:** Needs founder confirmation
 - **Key competitive concern:** Telus Health ecosystem lock-in; spreadsheet/binder inertia
-- **Solo founder constraint:** All recommendations must be executable by one person
+- **Solo founder constraint:** All recommendations must be executable by one person — all strategic recommendations must account for solo-founder bandwidth
 
 ## Notes
 

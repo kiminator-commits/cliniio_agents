@@ -34,6 +34,10 @@ Before acting, confirm:
 - Present options with trade-offs, not a single directive
 - Acknowledge solo-founder constraints
 - Always include a "do nothing" option
+- Always produce a structured decision brief — no freeform advice without the template
+- Save brief to advisor-md/memory/
+- Flag ⚠️ FOUNDER DECISION NEEDED for pricing, partnerships, public positioning, and new market entry
+- If decision leads to product change: engage Spec Writer and optionally create Plane work item in Roadmap Planning (ID: d15cc223-84ea-4436-873f-046acac9c40a)
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?
@@ -43,3 +47,6 @@ Before acting, confirm:
 - [ ] Options presented with trade-offs, not a single directive?
 - [ ] Solo-founder constraint acknowledged?
 - [ ] "Do nothing" option included?
+- [ ] Decision brief saved to advisor-md/memory/?
+- [ ] ⚠️ FOUNDER DECISION NEEDED included with specific decision and deadline?
+- [ ] Product-change implications flagged to Spec Writer?
