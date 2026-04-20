@@ -27,9 +27,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/standards-watcher-md.md for monitored bodies and last-checked dates
+- Check memory/domain-state/standards-watcher.md for monitored bodies and last-checked dates
 - Check memory/feedback-log.md for recent corrections
-- Cross-reference compliance-tracker-md/CLAUDE.md for active checklists affected
+- Cross-reference compliance-tracker/CLAUDE.md for active checklists affected
 
 ## Step 3: Execute
 - Label standard status clearly (draft / consultation / final / in force)

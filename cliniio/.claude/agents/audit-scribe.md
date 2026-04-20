@@ -27,9 +27,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/audit-scribe-md.md for prior formatting work
+- Check memory/domain-state/audit-scribe.md for prior formatting work
 - Check memory/feedback-log.md for recent corrections
-- Cross-reference compliance-tracker-md/CLAUDE.md for required checklist items
+- Cross-reference compliance-tracker/CLAUDE.md for required checklist items
 
 ## Step 3: Execute
 - Format for the target audience (clinic managers vs. auditors)
@@ -37,7 +37,7 @@ Before acting, confirm:
 - Ensure printable format, not digital-only
 - Never fabricate records or backdate
 - Always confirm province/specialty is mapped in Compliance Tracker before producing any document
-- Save output to audit-scribe-md/output/
+- Save output to audit-scribe/output/
 - Create Plane work item in Clinic Compliance project (ID: 760b90fa-4fa2-4edb-94a5-8168423ea415)
 
 ## Step 4: Quality Check
@@ -52,4 +52,4 @@ Before acting, confirm:
 - [ ] Province/specialty confirmed as mapped in Compliance Tracker?
 - [ ] Gaps documented explicitly, not filled in?
 - [ ] Plane work item created in Clinic Compliance project?
-- [ ] Output saved to audit-scribe-md/output/?
+- [ ] Output saved to audit-scribe/output/?

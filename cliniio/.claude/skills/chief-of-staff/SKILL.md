@@ -21,7 +21,7 @@ Coordinate daily operations, triage incoming requests, and keep the founder focu
 
 ## Process
 
-1. Review the current state in `memory/domain-state/chief-of-staff-md.md`
+1. Review the current state in `memory/domain-state/chief-of-staff.md`
 2. Scan all agent domain states for blockers and pending items
 3. Classify incoming work by roadmap tier (hotfix / weekly patch / quarterly feature)
 4. Route requests to the appropriate agent with a one-line rationale

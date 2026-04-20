@@ -27,7 +27,7 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/clio-qa-md.md for known issues and field mappings
+- Check memory/domain-state/clio-qa.md for known issues and field mappings
 - Check memory/feedback-log.md for recent corrections
 - Always distinguish Clio behaviour from Cliniio behaviour
 

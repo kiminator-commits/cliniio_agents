@@ -45,16 +45,16 @@ This workspace is operated by a team of Claude Code agents. Each agent has a spe
 
 | Request Type | Route To | Directory |
 |---|---|---|
-| Daily priorities, blockers, coordination | **Chief of Staff** | `chief-of-staff-md/` |
-| Shipping, versioning, changelogs, deploys | **Release Manager** | `release-manager-md/` |
-| Regulatory standards, compliance checklists | **Compliance Tracker** | `compliance-tracker-md/` |
-| Grants, funding programs, accelerators | **Funding Scout** | `funding-scout-md/` |
-| Prospect research, lead filtering | **Prospect Filter** | `prospect-filter-md/` |
-| Clio integration, data mapping, sync issues | **Clio QA** | `clio-qa-md/` |
-| Feature specs, user stories, acceptance criteria | **Spec Writer** | `spec-writer-md/` |
-| Regulatory updates, standard changes | **Standards Watcher** | `standards-watcher-md/` |
-| Audit documents, compliance binder formatting | **Audit Scribe** | `audit-scribe-md/` |
-| Pricing, positioning, strategy, partnerships | **Advisor** | `advisor-md/` |
+| Daily priorities, blockers, coordination | **Chief of Staff** | `chief-of-staff/` |
+| Shipping, versioning, changelogs, deploys | **Release Manager** | `release-manager/` |
+| Regulatory standards, compliance checklists | **Compliance Tracker** | `compliance-tracker/` |
+| Grants, funding programs, accelerators | **Funding Scout** | `funding-scout/` |
+| Prospect research, lead filtering | **Prospect Filter** | `prospect-filter/` |
+| Clio integration, data mapping, sync issues | **Clio QA** | `clio-qa/` |
+| Feature specs, user stories, acceptance criteria | **Spec Writer** | `spec-writer/` |
+| Regulatory updates, standard changes | **Standards Watcher** | `standards-watcher/` |
+| Audit documents, compliance binder formatting | **Audit Scribe** | `audit-scribe/` |
+| Pricing, positioning, strategy, partnerships | **Advisor** | `advisor/` |
 
 ### Routing Rules
 
@@ -141,4 +141,4 @@ Each teammate works in its own context window and can message the others directl
 - `.claude/agents/` — Subagent definitions for Cowork (one per agent)
 - `memory/` — Shared memory: manifest, lessons, feedback, domain state
 - `config/` — Workspace preferences
-- `[agent]-md/` — Per-agent directories with their own CLAUDE.md and memory/
+- `[agent]/` — Per-agent directories with their own CLAUDE.md and memory/

@@ -23,7 +23,7 @@ Handle day-to-day operational workflows: compliance tracking, audit prep, standa
 ## Process
 
 1. Confirm specialty and province — never proceed without these
-2. Check `memory/domain-state/standards-watcher-md.md` for recent standard changes
+2. Check `memory/domain-state/standards-watcher.md` for recent standard changes
 3. Pull the relevant standard requirements for the clinic's specialty and province
 4. Cite source standard and section number for every compliance item
 5. Distinguish operational compliance (Cliniio's domain) from clinical/PHI compliance (not Cliniio's domain)

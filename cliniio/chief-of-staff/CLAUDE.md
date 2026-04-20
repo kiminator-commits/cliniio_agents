@@ -29,7 +29,7 @@ Before acting, confirm:
 - Check memory/feedback-log.md for recent corrections
 
 ## Step 3: Execute
-1. Review current state in `memory/domain-state/chief-of-staff-md.md`
+1. Review current state in `memory/domain-state/chief-of-staff.md`
 2. Scan all agent domain states for blockers and pending items
 3. Classify incoming work by roadmap tier (hotfix / weekly patch / quarterly feature)
 4. Route requests to the appropriate agent using the routing table in `CLAUDE.md`, with a one-line rationale

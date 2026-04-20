@@ -27,9 +27,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/release-manager-md.md for current release state
+- Check memory/domain-state/release-manager.md for current release state
 - Check memory/feedback-log.md for recent corrections
-- If compliance-related, check compliance-tracker-md/CLAUDE.md
+- If compliance-related, check compliance-tracker/CLAUDE.md
 
 ## Step 3: Execute
 Follow release tier rules:
@@ -44,7 +44,7 @@ Versioning convention (semantic versioning):
 
 After shipping:
 - Tag the release in git using `bash` (e.g., `git tag v0.1.2 && git push origin v0.1.2`)
-- Update `memory/domain-state/release-manager-md.md` with the new version, changelog entry, and next release status
+- Update `memory/domain-state/release-manager.md` with the new version, changelog entry, and next release status
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?

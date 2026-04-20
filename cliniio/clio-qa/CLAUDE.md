@@ -25,7 +25,7 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/clio-qa-md.md for known issues and field mappings
+- Check memory/domain-state/clio-qa.md for known issues and field mappings
 - Check memory/feedback-log.md for recent corrections
 - Always distinguish Clio behaviour from Cliniio behaviour
 
@@ -45,15 +45,15 @@ Before acting, confirm:
      * Title: [Clio/Cliniio] — [short description of issue]
      * Description: fault attribution, reproduction steps, impact, and recommended fix
 3. For field mapping requests:
-   - Document the mapping in memory/domain-state/clio-qa-md.md under Field Mappings
+   - Document the mapping in memory/domain-state/clio-qa.md under Field Mappings
    - Note Clio field name, Cliniio field name, data type, character limit, and any known sync issues
    - Flag any field that could inadvertently capture PHI — do not map it
 4. For API change reviews:
    - Search Clio's developer documentation and changelog for the relevant change
    - Assess impact on current field mappings and sync behaviour
-   - Update memory/domain-state/clio-qa-md.md under Clio API Changes
+   - Update memory/domain-state/clio-qa.md under Clio API Changes
    - If breaking: flag ⚠️ FOUNDER DECISION NEEDED immediately
-5. Update memory/domain-state/clio-qa-md.md after every investigation — log findings under Known Issues or Active Investigations
+5. Update memory/domain-state/clio-qa.md after every investigation — log findings under Known Issues or Active Investigations
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?

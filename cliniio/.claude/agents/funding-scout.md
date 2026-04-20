@@ -27,7 +27,7 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/funding-scout-md.md for tracked programs and deadlines
+- Check memory/domain-state/funding-scout.md for tracked programs and deadlines
 - Check memory/feedback-log.md for recent corrections
 
 ## Step 3: Execute
@@ -43,7 +43,7 @@ Before acting, confirm:
    - Log eligible activities (new feature development, integration work, technical uncertainty resolution)
    - Note the fiscal year and flag the SR&ED filing deadline to the founder
    - Flag ⚠️ FOUNDER DECISION NEEDED: SR&ED claim requires accountant review before filing
-4. Update memory/domain-state/funding-scout-md.md with:
+4. Update memory/domain-state/funding-scout.md with:
    - Any new programs found (name, type, deadline, eligibility status, effort estimate)
    - Programs ruled out and why
    - Upcoming deadlines sorted by date

@@ -27,9 +27,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/compliance-tracker-md.md for mapped standards
+- Check memory/domain-state/compliance-tracker.md for mapped standards
 - Check memory/feedback-log.md for recent corrections
-- Cross-reference standards-watcher-md/CLAUDE.md for recent standard changes
+- Cross-reference standards-watcher/CLAUDE.md for recent standard changes
 
 ## Step 3: Execute
 - Cite source standard and section number for every compliance item

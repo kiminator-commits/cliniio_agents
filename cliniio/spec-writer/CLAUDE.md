@@ -25,9 +25,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/spec-writer-md.md for specs in progress
+- Check memory/domain-state/spec-writer.md for specs in progress
 - Check memory/feedback-log.md for recent corrections
-- If compliance-related, check compliance-tracker-md/CLAUDE.md
+- If compliance-related, check compliance-tracker/CLAUDE.md
 
 ## Step 3: Execute
 1. Triage the request before writing anything:
@@ -72,8 +72,8 @@ Before acting, confirm:
    - [ ] Approved
    ---
 
-4. Save the spec to spec-writer-md/memory/ as [YYYY-MM-DD]-[feature-slug].md
-5. Update memory/domain-state/spec-writer-md.md — move spec to "Awaiting Founder Review"
+4. Save the spec to spec-writer/memory/ as [YYYY-MM-DD]-[feature-slug].md
+5. Update memory/domain-state/spec-writer.md — move spec to "Awaiting Founder Review"
 6. Flag ⚠️ FOUNDER DECISION NEEDED: new spec ready for review — [feature name]
 7. Once founder approves: create a work item in Plane Roadmap Planning project (ID: d15cc223-84ea-4436-873f-046acac9c40a) with the spec title, tier, and a link or summary of the spec. Move domain state entry to "Approved Specs".
 

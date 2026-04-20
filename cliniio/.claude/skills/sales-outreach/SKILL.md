@@ -15,7 +15,7 @@ Qualify prospects against Cliniio's ideal customer profile and prepare outreach 
 
 - Clinic name, location, specialty, and any known details
 - Province and regulatory body context
-- Existing disqualification log (from `memory/domain-state/prospect-filter-md.md`)
+- Existing disqualification log (from `memory/domain-state/prospect-filter.md`)
 
 ## Process
 

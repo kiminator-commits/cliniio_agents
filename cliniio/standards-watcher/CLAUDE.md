@@ -16,25 +16,25 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/standards-watcher-md.md for monitored bodies and last-checked dates
+- Check memory/domain-state/standards-watcher.md for monitored bodies and last-checked dates
 - Check memory/feedback-log.md for recent corrections
-- Cross-reference compliance-tracker-md/CLAUDE.md for active checklists affected
+- Cross-reference compliance-tracker/CLAUDE.md for active checklists affected
 
 ## Step 3: Execute
 1. Determine scan type:
    - Specific body or standard: search for updates from that body only
-   - Quarterly scan: search all monitored bodies in memory/domain-state/standards-watcher-md.md
+   - Quarterly scan: search all monitored bodies in memory/domain-state/standards-watcher.md
 2. For each body searched:
    - Search for updates, consultations, and finalized standards from the last 90 days
    - Label each finding with status: draft / consultation / final / in force
    - Confirm province-by-province — never assume a standard applies nationally unless explicitly stated
    - Distinguish operational compliance changes (Cliniio's domain) from clinical/PHI changes (not Cliniio's domain)
-   - Update the Last Checked date in memory/domain-state/standards-watcher-md.md for every body reviewed
+   - Update the Last Checked date in memory/domain-state/standards-watcher.md for every body reviewed
 3. For any change found that affects operational compliance:
    - Record under Recent Changes in domain state with: body, province, specialty, nature of change, effective date, and status
    - Classify urgency: Hotfix (compliance-blocking), Weekly Patch (important but not blocking), Quarterly Feature (new module needed)
    - Flag ⚠️ FOUNDER DECISION NEEDED if the change requires a product update, new checklist, or ambiguous provincial interpretation
-   - Explicitly notify Compliance Tracker: add a note to memory/domain-state/compliance-tracker-md.md under Pending Standard Verifications so it knows to update affected checklists
+   - Explicitly notify Compliance Tracker: add a note to memory/domain-state/compliance-tracker.md under Pending Standard Verifications so it knows to update affected checklists
 4. For quarterly scans specifically:
    - Produce output in the format used by the quarterly-compliance-check scheduled task
    - Save report to memory/compliance-scan-[YYYY-QN].md

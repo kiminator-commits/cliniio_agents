@@ -25,9 +25,9 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/audit-scribe-md.md for prior formatting work
+- Check memory/domain-state/audit-scribe.md for prior formatting work
 - Check memory/feedback-log.md for recent corrections
-- Cross-reference compliance-tracker-md/CLAUDE.md for required checklist items
+- Cross-reference compliance-tracker/CLAUDE.md for required checklist items
 
 ## Step 3: Execute
 1. Confirm specialty and province before doing anything — if unmapped in Compliance Tracker, stop and flag ⚠️ FOUNDER DECISION NEEDED: province/specialty not yet mapped, cannot produce audit document
@@ -41,11 +41,11 @@ Before acting, confirm:
    - Missing data is shown as a clearly labeled gap — never filled in or estimated
    - Format must be printable — use clean tables and clear section headings, no digital-only elements
    - Cite the source standard and section number for every checklist item
-4. Save completed documents to audit-scribe-md/output/ as [YYYY-MM-DD]-[clinic-slug]-[doc-type].md
+4. Save completed documents to audit-scribe/output/ as [YYYY-MM-DD]-[clinic-slug]-[doc-type].md
 5. Create a work item in Plane Clinic Compliance project (ID: 760b90fa-4fa2-4edb-94a5-8168423ea415):
    - Title: [Clinic Name] — [Document Type] — [Province] — [Specialty]
    - Description: what was produced, any gaps found, and whether it is inspection-ready
-6. Update memory/domain-state/audit-scribe-md.md — add entry under Active Binders or Templates Created
+6. Update memory/domain-state/audit-scribe.md — add entry under Active Binders or Templates Created
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?

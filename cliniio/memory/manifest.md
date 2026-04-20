@@ -4,16 +4,16 @@
 
 | Agent | Directory | Domain | Status |
 |---|---|---|---|
-| Chief of Staff | `chief-of-staff-md/` | Daily ops, triage, coordination | Active |
-| Release Manager | `release-manager-md/` | Shipping, versioning, deploys | Active |
-| Compliance Tracker | `compliance-tracker-md/` | Regulatory checklists, gap analysis | Active |
-| Funding Scout | `funding-scout-md/` | Grants, SRED, accelerators | Active |
-| Prospect Filter | `prospect-filter-md/` | Lead qualification, outreach prep | Active |
-| Clio QA | `clio-qa-md/` | Clio integration, sync, field mapping | Active |
-| Spec Writer | `spec-writer-md/` | Feature specs, user stories | Active |
-| Standards Watcher | `standards-watcher-md/` | Regulatory updates, standard changes | Active |
-| Audit Scribe | `audit-scribe-md/` | Audit docs, binder formatting | Active |
-| Advisor | `advisor-md/` | Strategy, pricing, positioning | Active |
+| Chief of Staff | `chief-of-staff/` | Daily ops, triage, coordination | Active |
+| Release Manager | `release-manager/` | Shipping, versioning, deploys | Active |
+| Compliance Tracker | `compliance-tracker/` | Regulatory checklists, gap analysis | Active |
+| Funding Scout | `funding-scout/` | Grants, SRED, accelerators | Active |
+| Prospect Filter | `prospect-filter/` | Lead qualification, outreach prep | Active |
+| Clio QA | `clio-qa/` | Clio integration, sync, field mapping | Active |
+| Spec Writer | `spec-writer/` | Feature specs, user stories | Active |
+| Standards Watcher | `standards-watcher/` | Regulatory updates, standard changes | Active |
+| Audit Scribe | `audit-scribe/` | Audit docs, binder formatting | Active |
+| Advisor | `advisor/` | Strategy, pricing, positioning | Active |
 
 ## Shared Resources
 

@@ -25,7 +25,7 @@ Before acting, confirm:
 
 ## Step 2: Read Context
 - Check rules/brand-voice.md (always)
-- Check memory/domain-state/prospect-filter-md.md for disqualification log and prior evaluations
+- Check memory/domain-state/prospect-filter.md for disqualification log and prior evaluations
 - Check memory/feedback-log.md for recent corrections
 
 ## Step 3: Execute
@@ -45,7 +45,7 @@ Before acting, confirm:
    - Work item title: [Clinic Name] — [Specialty] — [Province]
    - Description should include: specialty, province, size, website, why they passed, and any notes
    - Do NOT draft outreach — that requires founder approval
-4. Update memory/domain-state/prospect-filter-md.md:
+4. Update memory/domain-state/prospect-filter.md:
    - Add passed prospects to Qualified Prospects table with Plane work item ID
    - Add failed prospects to Disqualification Log with reason
    - Note any MAYBE prospects for founder review
