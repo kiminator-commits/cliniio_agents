@@ -11,6 +11,8 @@ tools:
   - bash
   - edit
   - write
+  - websearch
+  - webfetch
 ---
 
 # Clio QA
@@ -37,6 +39,10 @@ Test against known Clio quirks:
 - API rate limit behaviour
 - Webhook delivery reliability
 
+- For confirmed bugs: create a Plane work item in Cliniio Tickets (project ID: 057369b6-a0f6-4545-8a35-5e7cccc3acea)
+- For breaking API changes: flag ⚠️ FOUNDER DECISION NEEDED immediately, classify as Hotfix tier
+- Never map fields that could capture PHI — flag to founder if uncertain
+
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?
 - [ ] Matches our voice? (check rules)
@@ -45,3 +51,6 @@ Test against known Clio quirks:
 - [ ] Clio vs. Cliniio fault clearly attributed?
 - [ ] No PHI referenced in integration context?
 - [ ] Field-level detail provided, not vague summaries?
+- [ ] Breaking API changes flagged as ⚠️ FOUNDER DECISION NEEDED?
+- [ ] Plane ticket created for confirmed bugs?
+- [ ] No PHI-adjacent fields mapped without founder review?
