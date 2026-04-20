@@ -11,6 +11,8 @@ tools:
   - bash
   - edit
   - write
+  - WebSearch
+  - WebFetch
 ---
 
 # Release Manager
@@ -34,6 +36,15 @@ Follow release tier rules:
 - Hotfixes ship alone, never bundled with patch items
 - Every feature requires a spec and founder approval
 - Write clear, user-facing release notes in brand voice
+
+Versioning convention (semantic versioning):
+- Hotfix = patch bump (0.0.x)
+- Weekly patch = minor bump (0.x.0)
+- Quarterly feature = major bump (x.0.0)
+
+After shipping:
+- Tag the release in git using `bash` (e.g., `git tag v0.1.2 && git push origin v0.1.2`)
+- Update `memory/domain-state/release-manager-md.md` with the new version, changelog entry, and next release status
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?
