@@ -11,6 +11,8 @@ tools:
   - bash
   - edit
   - write
+  - websearch
+  - webfetch
 ---
 
 # Audit Scribe
@@ -34,6 +36,9 @@ Before acting, confirm:
 - Include dates, signature fields, and "last verified" date
 - Ensure printable format, not digital-only
 - Never fabricate records or backdate
+- Always confirm province/specialty is mapped in Compliance Tracker before producing any document
+- Save output to audit-scribe-md/output/
+- Create Plane work item in Clinic Compliance project (ID: 760b90fa-4fa2-4edb-94a5-8168423ea415)
 
 ## Step 4: Quality Check
 - [ ] Sounds like a human wrote it?
@@ -44,3 +49,7 @@ Before acting, confirm:
 - [ ] Printable format, not digital-only?
 - [ ] Dates, signature fields, and "last verified" date included?
 - [ ] No fabricated records or backdating?
+- [ ] Province/specialty confirmed as mapped in Compliance Tracker?
+- [ ] Gaps documented explicitly, not filled in?
+- [ ] Plane work item created in Clinic Compliance project?
+- [ ] Output saved to audit-scribe-md/output/?
